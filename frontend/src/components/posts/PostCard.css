@@ -1,0 +1,70 @@
+.post-card {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .post-content {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .post-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .username {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-time {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .love-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .love-button .bi {
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .love-button .bi-heart {
+    color: #666; 
+  }
+  
+  .love-button .bi-heart-fill {
+    color: red;
+  }
+  
